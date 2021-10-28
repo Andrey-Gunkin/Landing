@@ -67,6 +67,7 @@ body {
 }
 
 .phone {
+    font-size: 11px;
     padding-left: 20px;
     color: #E3B873;
 }
@@ -242,6 +243,7 @@ hr {
 }
 
 .h2 {
+    width: 300px;
     font-size: 27px;
     color: #E3B873;
     font-family: 'Yeseva One', cursive;
@@ -258,6 +260,9 @@ hr {
 
 }
 
+.projects-photo__tablets {
+    display: none;
+}
 
 .projects-info {
     margin-top: 42px;
@@ -995,4 +1000,85 @@ hr {
 .btn-header:hover {
     background: transparent;
     border: #fff 1px solid;
+}
+
+@media screen and (max-width:1400px) {
+    .container {
+        width: 748px;
+    }
+
+    .header-list {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 350px;
+        padding: 0;
+
+    }
+
+    .phone {
+        padding: 0;
+
+    }
+
+    .btn-header {
+        width: 100px;
+        margin: 22px;
+    }
+
+    .projects-list__container {
+        margin-top: 38px;
+    }
+
+    .projects-content {
+        width: auto;
+    }
+
+    .projects-content__text {
+        justify-content: center;
+        width: auto;
+    }
+
+    .projects-photo {
+        display: none;
+    }
+
+    .projects-photo__tablets {
+        display: flex;
+        position: relative;
+        width: 422px;
+        height: 300px;
+        justify-content: end;
+        margin: 10px auto 0;
+    }
+
+    .projects-left-arrow {
+        position: absolute;
+       top: 50%;
+       left: 0;
+    }
+
+    .projects-right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+
+    .h2 {
+        width: 500px;
+        text-align: center;
+    }
+
+    .projects-text {
+        text-align: center;
+    }
+
+    .projects-pagination {
+        display: none;
+    }
+
+    .projects-info {
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
 }
