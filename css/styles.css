@@ -22,7 +22,7 @@ body {
     height: 83px;
     width: 100vw;
     top: 0;
-    z-index: 100;
+    z-index: 300;
 }
 
 .container {
@@ -481,12 +481,14 @@ hr {
 
 
 /* SECTION4 */
-
+.types {
+    margin-top: 148px;
+}
 
 .types-container {
     display: flex;
     flex-direction: column;
-    margin-top: 76px;
+    /* margin-top: 76px; */
 }
 
 .types-h3 {
@@ -751,6 +753,9 @@ hr {
 
 /* SECTION6 */
 
+.clients {
+    margin-top: 151px;
+}
 
 .clients-container {
     display: flex;
@@ -1053,8 +1058,8 @@ hr {
 
     .projects-left-arrow {
         position: absolute;
-       top: 50%;
-       left: 0;
+        top: 50%;
+        left: 0;
     }
 
     .projects-right-arrow {
@@ -1081,4 +1086,129 @@ hr {
         margin-left: 30px;
     }
 
+    .projects {
+        padding-bottom: 300px;
+    }
+
+    .control-h3 {
+        margin-top: -310px;
+    }
+
+    .control-camera__container {
+        width: 510px;
+        height: 313px;
+        margin-top: 74px;
+    }
+
+    .control-form {
+        margin-top: 30px;
+    }
+
+    .control-label__name {
+        width: 127px;
+    }
+
+    .control-label__phone {
+        width: 134px;
+    }
+
+    .control-btn {
+        width: 160px;
+    }
+
+    .control-checkbox-label {
+        margin-top: 21px;
+    }
+
+    .types-icon {
+        margin: 0;
+    }
+
+    .types-repair {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .types-container__img {
+        flex-direction: column;
+        padding-bottom: 229px;
+        width: 510px;
+        height: 300px;
+    }
+
+    .types-repair {
+        align-items: center;
+    }
+
+    .types-redecorating {
+        margin-top: -200px;
+    }
+
+    .types {
+        margin-top: 25px;
+    }
+
+    .advantages {
+        display: none;
+    }
+
+    .consultation-block {
+        justify-content: center;
+    }
+
+    .request {
+        margin-top: 30px;
+    }
+
+    .economy {
+        display: none;
+    }
+
+    .clients {
+        margin-top: 10px;
+    }
+
+    .our-clients {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .client-subtitle {
+        margin-bottom: 17px;
+        margin-left: 50px;
+    }
+
+    .client-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .client-block {
+        margin-left: 28px;
+    }
+
+
+    .our-contacts {
+        background: none;
+    }
+
+    .questions {
+        margin: 0;
+        width: 580px;
+    }
+
+
+    .maps {
+        height: 800px;
+    }
+
+    .maps-png {
+        width: 510px;
+        height: 300px;
+    }
+
+    .maps-img {
+        width: 100%;
+        height: 100%;
+    }
 }
