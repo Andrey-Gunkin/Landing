@@ -59,7 +59,6 @@
                     <ul class="projects-list">
                         <li class="projects-item"><a href="" class="projects-link active-window">ROSTOV-ON-DON,
                                 ADMIRAL</a>
-                            <hr />
                         </li>
                         <li class="projects-item"><a href="" class="projects-link">SOCHI THIEVES</a></li>
                         <li class=" projects-item"><a href="" class="projects-link">ROSTOV-ON-DON PATRIOTIC</a></li>
@@ -70,8 +69,8 @@
                     <div class="projects-content__text">
                         <h2 class="h2">COMPLETED PROJECTS</h2>
 
-                        <p class="projects-text">Only a small part of the work performed by our company is presented<br>
-                            on the site. For 14 years on in the construction<br> market we have made happy more than
+                        <p class="projects-text">Only a small part of the work performed by our company is presented
+                            on the site. For 14 years on in the construction market we have made happy more than
                             1000 families</p>
 
                         <div class="projects-photo__tablets">
@@ -83,6 +82,18 @@
                                 <img src="./images/project-right-arrow.svg" alt="Стрелка вправо">
                             </div>
                         </div>
+
+                        <div class="projects-photo__tablets__mobile">
+                            <img src="./images/project-img__mobile.png" alt="Дизайн помещения">
+                            <div class="projects-left-arrow">
+                                <img src="./images/project-left-arrow.svg" alt="Стрелка влево">
+                            </div>
+                            <div class="projects-right-arrow">
+                                <img src="./images/project-right-arrow.svg" alt="Стрелка вправо">
+                            </div>
+                        </div>
+
+
 
                         <div class="projects-info">
                             <div class="projects-info__item">
@@ -139,12 +150,17 @@
                 <div class="control-camera__container">
                     <img class="control-camera__img" src="./images/control-camera_img.png" alt="Трансляция с камеры">
                     <div class="control-camera__circle"></div>
-                    <img src="./images/Triangle.svg" alt="Запуск трансляции с камеры" class="triangle">
+                    <div class="triangle">
+                        <img src="./images/Triangle.svg" alt="Запуск трансляции с камеры">
+                    </div>
+                    <div class="triangle-mobile">
+                        <img src="./images/Triangle-mobile.svg" alt="Запуск трансляции с камеры">
+                    </div>
                 </div>
                 <div class="control-hr"></div>
                 <p class="control-text">At each facility, a camera is installed that broadcasts the progress of work on
-                    the<br> clock. At any time, you can go to our website and monitor the progress of work in<br> your
-                    apartment. You can watch the live broadcast from one of our facilities!<br>
+                    the clock. At any time, you can go to our website and monitor the progress of work in your
+                    apartment. You can watch the live broadcast from one of our facilities!
                     Leave a request below and you will receive a link to the broadcast.</p>
 
 
@@ -153,8 +169,15 @@
                 <form action="#" class="control-form">
                     <label for="Name" class="control-label__name">Name <input class="control-input__name" name="Name"
                             placeholder="What is your name:"></label>
-                    <label for="Phone" class="control-label__phone">Name <input class="control-input__phone" name="Name"
-                            placeholder="Your phone number:"></label>
+                    <label for="Phone" class="control-label__phone">Number <input class="control-input__phone"
+                            name="Name" placeholder="Your phone number:"></label>
+
+                    <label class="control-checkbox-label__mobile">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="fake"></span>
+                        <span class="checkbox-text">I agree to the processing of personal data.</span>
+                    </label>
+
                     <button class="control-btn">SUBMIT</button>
                 </form>
 
@@ -310,6 +333,56 @@
             </div>
         </section>
 
+        <!-- BLOCK GRID -->
+
+
+        <section class="fantasy blackout">
+            <div class="container fantasy-container">
+                <div class="fantasy-variants">
+                    <h2 class="h2 fantasy-h2">We realize your
+                        wildest fantasies</h2>
+                    <ul class="fantasy-list">
+                        <li class="fantasy-item active-window fantasy-active">American classic</li>
+                        <li class="fantasy-item">Empire</li>
+                        <li class="fantasy-item">Classical</li>
+                        <li class="fantasy-item">Loft</li>
+                        <li class="fantasy-item">Minimalism</li>
+                        <li class="fantasy-item">Provence</li>
+                        <li class="fantasy-item">Romanticism</li>
+                        <li class="fantasy-item">Scandinavian style</li>
+                        <li class="fantasy-item">Mediterranean style</li>
+                        <li class="fantasy-item">High tech</li>
+                        <li class="fantasy-item">Eclecticism</li>
+                    </ul>
+                </div>
+                <div class="fantasy-photo">
+                    <div class="fantasy-photo__block">
+                        <img src="./images/fantasy-clock.png" alt="Часы" class="grid-photo1">
+                        <img src="./images/fantasy-tv.png" alt="Телевизор" class="grid-photo3">
+                    </div>
+                    <div class="fantasy-photo__block">
+                        <img src="./images/fantasy-divan.png" alt="Зал" class="grid-photo2">
+                        <img src="./images/fantasy-flower.png" alt="Цветок" class="grid-photo4">
+                    </div>
+                </div>
+            </div>
+            <div class="blackout fantasy-blackout"></div>
+            <div class="fantasy-container__mobile">
+                <h2 class="h2 fantasy-h2 fantasy-h2__mobile">We realize your
+                    wildest fantasies</h2>
+                <div class="projects-photo__tablets__mobile fantasy-photo___mobile">
+                    <img src="./images/fantasy__mobile.png" alt="Дизайн помещения">
+                    <div class="projects-left-arrow">
+                        <img src="./images/project-left-arrow.svg" alt="Стрелка влево">
+                    </div>
+                    <div class="projects-right-arrow">
+                        <img src="./images/project-right-arrow.svg" alt="Стрелка вправо">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <!-- SECTION6 -->
 
@@ -421,18 +494,34 @@
                 </form>
             </div>
         </section>
+
+
+
+
         <section class="maps">
             <div class="maps-container container">
                 <p class="maps-h3">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
                     Decorum Tel +7 (928) 768 32 29</p>
                 <div class="maps-icon">
-                    <img src="./images/maps-icon.svg" alt="Иконка"></div>
+                    <img src="./images/maps-icon.svg" alt="Иконка">
+                </div>
                 <div class="maps-png">
                     <img src="./images/maps.png" alt="Карта" class="maps-img">
                 </div>
 
             </div>
             <div class="blackout blackout-maps"></div>
+            <div class="maps-container__mobile container">
+                <div class="maps-png">
+                    <img src="./images/maps.png" alt="Карта" class="maps-img">
+                </div>
+                <p class="maps-h3">Rostov-on-Don, Nansen St., 239 Shopping Center
+                    Decorum <br>Tel +7 (928) 768 32 29</p>
+                <div class="maps-icon">
+                    <img src="./images/maps-icon.svg" alt="Иконка" class="icon-size">
+                </div>
+            </div>
+
         </section>
 
 
